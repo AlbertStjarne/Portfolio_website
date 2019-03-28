@@ -45,6 +45,7 @@
     grid-template-columns: 1fr;
   }
 
+  // Home
   #home {
     &-a {
       .specials div {
@@ -62,6 +63,24 @@
       .stats div {
         padding: 2rem 0 1rem 0;
       }
+    }
+  }
+
+  // About
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          'bioimage'
+          'bio'
+          'aw1'
+          'aw2'
+          'aw3';
+      }
+    }
+
+    &-c {
+      display: none;
     }
   }
 
