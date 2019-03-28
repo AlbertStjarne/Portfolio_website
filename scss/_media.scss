@@ -130,3 +130,23 @@
     }
   }
 }
+
+// Landscape
+@media(max-height: 580px) {
+  #header-home {
+    .header-content {
+      padding-top: 3rem;
+    }
+  }
+}
+
+// iphone 5 landscape
+@media(max-height: 330px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
